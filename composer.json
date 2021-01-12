@@ -34,8 +34,7 @@
         "test": "./vendor/bin/phpunit -v --coverage-text --colors=never --configuration phpunit.xml --stop-on-failure --stop-on-risky",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
         "lint": [
-            "./vendor/bin/phpcs --standard=PSR2 src/",
-            "./vendor/bin/phpcs --standard=PSR2 tests/"
+            "./vendor/bin/phpcs --standard=PSR2 src/"
         ]
     }
 }
