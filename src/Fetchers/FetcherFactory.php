@@ -4,7 +4,7 @@ namespace ArtARTs36\LaravelBlockIp\Fetchers;
 
 use ArtARTs36\LaravelBlockIp\Contracts\Fetcher;
 use ArtARTs36\LaravelBlockIp\Fetchers\CleanTalk\NewBotsFetcher;
-use Illuminate\Container\Container;
+use Illuminate\Contracts\Container\Container;
 
 class FetcherFactory
 {
